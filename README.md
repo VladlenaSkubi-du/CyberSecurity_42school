@@ -104,7 +104,7 @@ As for the ISO: it is much simplier than default Linux system nowadays. We have 
 * System-wide ASLR (kernel.randomize_va_space): Off (Setting: 0)
 * No PIE (position-independent executable)
 
-These means:
+That means:
 * A programmer who mistakenly leaves open the possibility of overrunning a buffer on a function's stack may be allowing attackers to overwrite the return pointer pushed onto the stack earlier.
 * There is no prevention from buffer overflows that might corrupt the stack (or other data locations).
 * The Linux kernel's free list pointer obfuscation has weaknesses, which in the right conditions, allows an attacker to perform free list poisoning.
