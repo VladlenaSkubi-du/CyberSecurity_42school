@@ -36,7 +36,7 @@ And:
 	level0@192.168.99.103's password: level0
 
 It is more convenient to use local console and connect via SSH. In the projects we use different utils, create files a bit and so on.\
-Our main goal is to use everything given in the ISO to find exploit for the current user and reach password file or user for the next level user untill we come to the last one. So each level is a user:
+Our main goal is to use everything given in the ISO to find exploitations for the current user and reach next user password file or user untill we come to the last one. So each level is a user:
 
 	level00:x:2000:2000::/home/user/level00:/bin/bash
 	level01:x:2001:2001::/home/user/level01:/bin/bash
