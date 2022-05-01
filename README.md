@@ -133,7 +133,7 @@ That means:
 	L2 cache:              256K
 	L3 cache:              6144K
 
-This project wa a bit more difficult but was interesting.
+This project was a bit more difficult but was interesting.
 Links:
 * https://man7.org/linux/man-pages/man7/kernel_lockdown.7.html 
 * https://cxsecurity.com/issue/WLB-2013100009 
